@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.sameboy"
-		name="Game Boy / Game Boy Color (SameBoy)"
+		name="Nintendo - Game Boy / Color (SameBoy)"
 		version="0.10.0"
 		provider-name="Libretro">
 	<requires>
@@ -16,7 +16,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Game Boy / Game Boy Color (SameBoy) 0.10</summary>
+		<summary lang="en">Nintendo - Game Boy / Color (SameBoy) 0.10</summary>
 		<description>SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.
 
 Supported files: .gb, .gbc</description>
