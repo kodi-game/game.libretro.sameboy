@@ -15,8 +15,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nintendo - Game Boy / Color (SameBoy) 0.10.1</summary>
-		<description>SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.
+		<summary lang="en_GB">Nintendo - Game Boy / Color (SameBoy) 0.10.1</summary>
+		<description lang="en_GB">SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.
 
 Supported files: .gb, .gbc</description>
 		<license>MIT</license>

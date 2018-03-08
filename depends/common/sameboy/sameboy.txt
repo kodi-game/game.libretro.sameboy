@@ -1,1 +1,1 @@
-sameboy https://github.com/libretro/SameBoy master
+sameboy https://github.com/libretro/SameBoy buildbot
