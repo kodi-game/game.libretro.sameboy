@@ -21,5 +21,6 @@
 Supported files: .gb, .gbc</description>
 		<license>MIT</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.sameboy</source>
 	</extension>
 </addon>
