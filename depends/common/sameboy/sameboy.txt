@@ -1,1 +1,1 @@
-sameboy https://github.com/libretro/SameBoy buildbot
+sameboy https://github.com/libretro/SameBoy/archive/149c5cd79308b073c7c3647ddc2ab05d3791d782.zip
