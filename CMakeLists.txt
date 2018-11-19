@@ -4,7 +4,7 @@ project(game.libretro.sameboy)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(Kodi REQUIRED)
-find_package(libretro-sameboy REQUIRED)
+find_library(SAMEBOY_LIB NAMES sameboy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} PATH_SUFFIXES libretro)
 
 set(SAMEBOY_CUSTOM_BINARY ${SAMEBOY_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
