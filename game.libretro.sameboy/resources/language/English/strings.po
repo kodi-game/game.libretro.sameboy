@@ -1,13 +1,13 @@
-# game.libretro.theodore language file
-# Addon Name: game.libretro.theodore
-# Addon id: game.libretro.theodore
+# game.libretro.sameboy language file
+# Addon Name: game.libretro.sameboy
+# Addon id: game.libretro.sameboy
 # Addon Provider: libretro
 msgid ""
 msgstr ""
-"Project-Id-Version: game.libretro.theodore\n"
+"Project-Id-Version: game.libretro.sameboy\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2019-02-03 13:46i\n"
-"PO-Revision-Date: 2019-02-03 13:46i\n"
+"POT-Creation-Date: 2019-02-09 13:46i\n"
+"PO-Revision-Date: 2019-02-09 13:46i\n"
 "Last-Translator: Kodi Translation Team\n"
 "Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"
