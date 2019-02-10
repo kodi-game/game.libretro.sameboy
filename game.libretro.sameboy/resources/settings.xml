@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="sameboy_color_correction_mode" values="off|correct curves|emulate hardware|preserve brightness" default="off"/>
+		<setting label="30002" type="select" id="sameboy_high_pass_filter_mode" values="off|accurate|remove dc offset" default="off"/>
+		<setting label="30003" type="select" id="sameboy_model" values="Auto|Game Boy|Game Boy Color|Game Boy Advance|Super Game Boy|Super Game Boy 2" default="Auto"/>
+	</category>
+</settings>
