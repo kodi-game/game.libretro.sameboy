@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.sameboy"
 		name="Nintendo - Game Boy / Color (SameBoy)"
-		version="0.13.6.14"
+		version="0.13.6.15"
 		provider-name="LIJI32">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
