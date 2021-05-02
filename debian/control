@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-sameboy (>= 0.13.6) | sameboy (>= 0.13.6)
+               libretro-sameboy (>= 0.14.2) | sameboy (>= 0.14.2)
 Standards-Version: 3.9.8
 Section: libs
 
