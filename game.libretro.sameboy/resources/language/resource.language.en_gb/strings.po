@@ -16,6 +16,16 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy / Color (SameBoy) 0.14.5"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.
+
+Supported files: .gb, .gbc"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
