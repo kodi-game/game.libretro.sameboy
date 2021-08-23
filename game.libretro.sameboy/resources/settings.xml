@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="sameboy_model" values="Auto|Game Boy|Game Boy Color C|Game Boy Color|Game Boy Advance|Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Auto"/>
+		<setting label="30002" type="select" id="sameboy_rtc" values="sync to system clock|accurate" default="sync to system clock"/>
+		<setting label="30003" type="select" id="sameboy_mono_palette" values="greyscale|lime|olive|teal" default="greyscale"/>
+		<setting label="30004" type="select" id="sameboy_color_correction_mode" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30005" type="select" id="sameboy_light_temperature" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
+		<setting label="30006" type="select" id="sameboy_border" values="Super Game Boy only|always|never" default="Super Game Boy only"/>
+		<setting label="30007" type="select" id="sameboy_high_pass_filter_mode" values="accurate|remove dc offset|off" default="accurate"/>
+		<setting label="30008" type="select" id="sameboy_audio_interference" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100" default="0"/>
+		<setting label="30009" type="select" id="sameboy_rumble" values="rumble-enabled games|all games|never" default="rumble-enabled games"/>
+		<setting label="30010" type="select" id="sameboy_link" values="enabled|disabled" default="enabled"/>
+		<setting label="30011" type="select" id="sameboy_screen_layout" values="top-down|left-right" default="top-down"/>
+		<setting label="30012" type="select" id="sameboy_audio_output" values="Game Boy #1|Game Boy #2" default="Game Boy #1"/>
+		<setting label="30013" type="select" id="sameboy_model_1" values="Auto|Game Boy|Game Boy Color C|Game Boy Color|Game Boy Advance|Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Auto"/>
+		<setting label="30014" type="select" id="sameboy_model_2" values="Auto|Game Boy|Game Boy Color C|Game Boy Color|Game Boy Advance|Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Auto"/>
+		<setting label="30015" type="select" id="sameboy_mono_palette_1" values="greyscale|lime|olive|teal" default="greyscale"/>
+		<setting label="30016" type="select" id="sameboy_mono_palette_2" values="greyscale|lime|olive|teal" default="greyscale"/>
+		<setting label="30017" type="select" id="sameboy_color_correction_mode_1" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30018" type="select" id="sameboy_color_correction_mode_2" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30019" type="select" id="sameboy_light_temperature_1" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
+		<setting label="30020" type="select" id="sameboy_light_temperature_2" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
+		<setting label="30021" type="select" id="sameboy_high_pass_filter_mode_1" values="accurate|remove dc offset|off" default="accurate"/>
+		<setting label="30022" type="select" id="sameboy_high_pass_filter_mode_2" values="accurate|remove dc offset|off" default="accurate"/>
+		<setting label="30023" type="select" id="sameboy_audio_interference_1" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100" default="0"/>
+		<setting label="30024" type="select" id="sameboy_audio_interference_2" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100" default="0"/>
+		<setting label="30025" type="select" id="sameboy_rumble_1" values="rumble-enabled games|all games|never" default="rumble-enabled games"/>
+		<setting label="30026" type="select" id="sameboy_rumble_2" values="rumble-enabled games|all games|never" default="rumble-enabled games"/>
+	</category>
+</settings>
