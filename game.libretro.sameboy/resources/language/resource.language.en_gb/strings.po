@@ -33,101 +33,113 @@ msgid "System - Emulated Model (Requires Restart)"
 msgstr ""
 
 msgctxt "#30002"
-msgid "System - Real Time Clock Emulation"
+msgid "System - Auto Detected SGB Model (Requires Restart)"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Video - GB Mono Palette"
+msgid "System - Real Time Clock Emulation"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Video - GBC Color Correction"
+msgid "Video - GB Mono Palette"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Video - Ambient Light Temperature"
+msgid "Video - GBC Color Correction"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Video - Display Border"
+msgid "Video - Ambient Light Temperature"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Audio - Highpass Filter"
+msgid "Video - Display Border"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Audio - Interference Volume"
+msgid "Audio - Highpass Filter"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Input - Rumble Mode"
+msgid "Audio - Interference Volume"
 msgstr ""
 
 msgctxt "#30010"
-msgid "System - Link Cable Emulation"
+msgid "Input - Rumble Mode"
 msgstr ""
 
 msgctxt "#30011"
-msgid "System - Screen Layout"
+msgid "System - Link Cable Emulation"
 msgstr ""
 
 msgctxt "#30012"
-msgid "System - Audio Output"
+msgid "System - Screen Layout"
 msgstr ""
 
 msgctxt "#30013"
-msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
+msgid "System - Audio Output"
 msgstr ""
 
 msgctxt "#30014"
-msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
+msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
 msgstr ""
 
 msgctxt "#30015"
-msgid "Video - GB Mono Palette for Game Boy #1"
+msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
 msgstr ""
 
 msgctxt "#30016"
-msgid "Video - GB Mono Palette for Game Boy #2"
+msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
 msgstr ""
 
 msgctxt "#30017"
-msgid "Video - GBC Color Correction for Game Boy #1"
+msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr ""
 
 msgctxt "#30018"
-msgid "Video - GBC Color Correction for Game Boy #2"
+msgid "Video - GB Mono Palette for Game Boy #1"
 msgstr ""
 
 msgctxt "#30019"
-msgid "Video - Ambient Light Temperature for Game Boy #1"
+msgid "Video - GB Mono Palette for Game Boy #2"
 msgstr ""
 
 msgctxt "#30020"
-msgid "Video - Ambient Light Temperature for Game Boy #2"
+msgid "Video - GBC Color Correction for Game Boy #1"
 msgstr ""
 
 msgctxt "#30021"
-msgid "Audio - Highpass Filter for Game Boy #1"
+msgid "Video - GBC Color Correction for Game Boy #2"
 msgstr ""
 
 msgctxt "#30022"
-msgid "Audio - Highpass Filter for Game Boy #2"
+msgid "Video - Ambient Light Temperature for Game Boy #1"
 msgstr ""
 
 msgctxt "#30023"
-msgid "Audio - Interference Volume for Game Boy #1"
+msgid "Video - Ambient Light Temperature for Game Boy #2"
 msgstr ""
 
 msgctxt "#30024"
-msgid "Audio - Interference Volume for Game Boy #2"
+msgid "Audio - Highpass Filter for Game Boy #1"
 msgstr ""
 
 msgctxt "#30025"
-msgid "Input - Rumble Mode for Game Boy #1"
+msgid "Audio - Highpass Filter for Game Boy #2"
 msgstr ""
 
 msgctxt "#30026"
+msgid "Audio - Interference Volume for Game Boy #1"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Audio - Interference Volume for Game Boy #2"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Input - Rumble Mode for Game Boy #1"
+msgstr ""
+
+msgctxt "#30029"
 msgid "Input - Rumble Mode for Game Boy #2"
 msgstr ""

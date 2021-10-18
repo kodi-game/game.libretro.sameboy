@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.sameboy"
 		name="Nintendo - Game Boy / Color (SameBoy)"
-		version="0.14.5.22"
+		version="0.14.5.23"
 		provider-name="LIJI32">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -11,7 +11,7 @@
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
 		<extensions>gb|gbc</extensions>
-		<supports_vfs>false</supports_vfs>
+		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>
 	</extension>
