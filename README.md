@@ -4,21 +4,23 @@
 # Nintendo - Game Boy / Color (SameBoy)
 
 ### Description
+
 SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.
 
 ### License
+
 MIT
 
 ### Icon
 
 ![Icon](game.libretro.sameboy/resources/icon.png)
 
+### Fanart
+
+Help make me fanart!
+
 ### Screenshots
 
 ![Screenshot](game.libretro.sameboy/resources/screenshot-01.jpg)
-
 ![Screenshot](game.libretro.sameboy/resources/screenshot-02.jpg)
-
 ![Screenshot](game.libretro.sameboy/resources/screenshot-03.jpg)
-
-
