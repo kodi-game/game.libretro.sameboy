@@ -1,1 +1,1 @@
-sameboy https://github.com/libretro/SameBoy/archive/9fd4e30591317aea48bb9ebd6095c0527c708b29.tar.gz
+sameboy https://github.com/libretro/SameBoy/archive/09138330990da32362246c7034cf4de2ea0a2a2b.tar.gz

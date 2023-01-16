@@ -5,7 +5,7 @@
 		<setting label="30002" type="select" id="sameboy_auto_sgb_model" values="Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Super Game Boy"/>
 		<setting label="30003" type="select" id="sameboy_rtc" values="sync to system clock|accurate" default="sync to system clock"/>
 		<setting label="30004" type="select" id="sameboy_mono_palette" values="greyscale|lime|olive|teal" default="greyscale"/>
-		<setting label="30005" type="select" id="sameboy_color_correction_mode" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30005" type="select" id="sameboy_color_correction_mode" values="emulate hardware|accurate|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
 		<setting label="30006" type="select" id="sameboy_light_temperature" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
 		<setting label="30007" type="select" id="sameboy_border" values="Super Game Boy only|always|never" default="Super Game Boy only"/>
 		<setting label="30008" type="select" id="sameboy_high_pass_filter_mode" values="accurate|remove dc offset|off" default="accurate"/>
@@ -20,8 +20,8 @@
 		<setting label="30017" type="select" id="sameboy_auto_sgb_model_2" values="Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Super Game Boy"/>
 		<setting label="30018" type="select" id="sameboy_mono_palette_1" values="greyscale|lime|olive|teal" default="greyscale"/>
 		<setting label="30019" type="select" id="sameboy_mono_palette_2" values="greyscale|lime|olive|teal" default="greyscale"/>
-		<setting label="30020" type="select" id="sameboy_color_correction_mode_1" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
-		<setting label="30021" type="select" id="sameboy_color_correction_mode_2" values="emulate hardware|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30020" type="select" id="sameboy_color_correction_mode_1" values="emulate hardware|accurate|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
+		<setting label="30021" type="select" id="sameboy_color_correction_mode_2" values="emulate hardware|accurate|preserve brightness|reduce contrast|correct curves|harsh reality|off" default="emulate hardware"/>
 		<setting label="30022" type="select" id="sameboy_light_temperature_1" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
 		<setting label="30023" type="select" id="sameboy_light_temperature_2" values="0|1.0|0.9|0.8|0.7|0.6|0.5|0.4|0.3|0.2|0.1|-0.1|-0.2|-0.3|-0.4|-0.5|-0.6|-0.7|-0.8|-0.9|-1.0" default="0"/>
 		<setting label="30024" type="select" id="sameboy_high_pass_filter_mode_1" values="accurate|remove dc offset|off" default="accurate"/>
