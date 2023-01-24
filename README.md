@@ -13,7 +13,7 @@ MIT
 
 ### Icon
 
-![Icon](game.libretro.sameboy/resources/icon.png)
+![Nintendo - Game Boy / Color (SameBoy) icon](game.libretro.sameboy/resources/icon.png)
 
 ### Fanart
 
@@ -21,6 +21,6 @@ Help make me fanart!
 
 ### Screenshots
 
-![Screenshot](game.libretro.sameboy/resources/screenshot-01.jpg)
-![Screenshot](game.libretro.sameboy/resources/screenshot-02.jpg)
-![Screenshot](game.libretro.sameboy/resources/screenshot-03.jpg)
+![Nintendo - Game Boy / Color (SameBoy) screenshot](game.libretro.sameboy/resources/screenshot-01.jpg)
+![Nintendo - Game Boy / Color (SameBoy) screenshot](game.libretro.sameboy/resources/screenshot-02.jpg)
+![Nintendo - Game Boy / Color (SameBoy) screenshot](game.libretro.sameboy/resources/screenshot-03.jpg)
