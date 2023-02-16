@@ -27,6 +27,7 @@
 		</assets>
 		<summary lang="en_GB">Nintendo - Game Boy / Color (SameBoy) 0.14.5</summary>
 		<description lang="da_DK">SameBoy er en open source Gameboy (DMG) og Gameboy Color (CGB) emulator, skrevet i bærbar C.</description>
+		<description lang="de_DE">SameBoy ist ein Open-Source-Emulator für den Gameboy (DMG) und den Gameboy Color (CGB), geschrieben in Portable C.</description>
 		<description lang="en_GB">SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C.</description>
 		<description lang="es_ES">SameBoy es un emulador de código abierto de Gameboy (DMG) y Gameboy Color (CGB), escrito en C portable.</description>
 		<description lang="zh_CN">SameBoy 是一个开源的 Gameboy（DMG）和 Gameboy Color（CGB）模拟器，用便携式 C 编写。</description>
