@@ -10,5 +10,10 @@ add_custom_target(build_hexdump
   COMMENT "Building hexdump using Makefile"
 )
 
+# Add a custom target that skips the install step
+add_custom_target(install_hexdump
+  COMMAND ${CMAKE_COMMAND} -E echo "Skipping install step for hexdump"
+)
+
 # Add an alias to build the hexdump by default when you build the project
 add_custom_target(all_hexdump DEPENDS build_hexdump)
