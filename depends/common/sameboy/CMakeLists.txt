@@ -7,36 +7,6 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
-
-
-
-# Set the hexdump path based on the CMAKE_INSTALL_PREFIX
-set(HEX_DUMP_PATH "${CMAKE_INSTALL_PREFIX}/bin/hexdump")
-
-# Check if the hexdump binary exists
-if(EXISTS ${HEX_DUMP_PATH})
-    # Execute hexdump --version and print the output
-    execute_process(
-        COMMAND ${HEX_DUMP_PATH} --version
-        OUTPUT_VARIABLE HEXDUMP_VERSION
-        ERROR_VARIABLE HEXDUMP_ERROR
-        RESULT_VARIABLE HEXDUMP_RESULT
-        OUTPUT_STRIP_TRAILING_WHITESPACE
-    )
-
-    if(HEXDUMP_RESULT EQUAL 0)
-        message(STATUS "hexdump version: ${HEXDUMP_VERSION}")
-    else()
-        message(FATAL_ERROR "Failed to run hexdump --version. Error: ${HEXDUMP_ERROR}")
-    endif()
-else()
-    message(FATAL_ERROR "hexdump binary does not exist at ${HEX_DUMP_PATH}")
-endif()
-
-
-
-
-
 # Ensure that the installation path is added to the `PATH` environment
 # variable. This is necessary so that the core's build system can locate
 # and use any binaries provided by dependencies.
