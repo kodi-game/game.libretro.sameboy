@@ -1,23 +1,26 @@
-From 6ab1a3dbdc16952247b43f423b59ea8a64b8d0e3 Mon Sep 17 00:00:00 2001
+From a04628bafa345ee37dfaef5464b017d61efa87e4 Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sun, 11 Aug 2024 19:06:20 -0700
 Subject: [PATCH] [temp] Print PATH var on Android
 
 ---
- libretro/jni/Android.mk | 3 +++
- 1 file changed, 3 insertions(+)
+ libretro/jni/Android.mk | 6 ++++++
+ 1 file changed, 6 insertions(+)
 
 diff --git a/libretro/jni/Android.mk b/libretro/jni/Android.mk
-index 0a967b1..d25b615 100644
+index 0a967b1..aec7c9c 100644
 --- a/libretro/jni/Android.mk
 +++ b/libretro/jni/Android.mk
-@@ -25,6 +25,9 @@ include $(BUILD_SHARED_LIBRARY)
+@@ -25,6 +25,12 @@ include $(BUILD_SHARED_LIBRARY)
  $(CORE_DIR)/libretro/%_boot.c: $(CORE_DIR)/BootROMs/prebuilt/%_boot.bin
  	echo "/* AUTO-GENERATED */" > $@
  	echo "const unsigned char $(notdir $(@:%.c=%))[] = {" >> $@
 +	@echo "PATH: $(PATH)"
++	@export PATH=$(PATH)
 +	@echo "Contents of bin-native:"
 +	@ls -l /home/jenkins/workspace/binary-addons/kodi-android-armv7-Omega/tools/depends/target/binary-addons/arm-linux-androideabi-21-release/build/depends/bin-native
++	@echo "Trying to run hexdump with explicit path:"
++	/home/jenkins/workspace/binary-addons/kodi-android-armv7-Omega/tools/depends/target/binary-addons/arm-linux-androideabi-21-release/build/depends/bin-native/hexdump -V
  	hexdump -v -e '/1 "0x%02x, "' $< >> $@
  	echo "};" >> $@
  	echo "const unsigned $(notdir $(@:%.c=%))_length = sizeof($(notdir $(@:%.c=%)));" >> $@
