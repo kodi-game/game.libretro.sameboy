@@ -1,0 +1,24 @@
+From f893875fe46070b3cd4082102e2cd4e8dda3778e Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sun, 11 Aug 2024 19:06:20 -0700
+Subject: [PATCH] [temp] Print PATH var on Android
+
+---
+ libretro/jni/Android.mk | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/libretro/jni/Android.mk b/libretro/jni/Android.mk
+index 0a967b1..5d540a1 100644
+--- a/libretro/jni/Android.mk
++++ b/libretro/jni/Android.mk
+@@ -25,6 +25,7 @@ include $(BUILD_SHARED_LIBRARY)
+ $(CORE_DIR)/libretro/%_boot.c: $(CORE_DIR)/BootROMs/prebuilt/%_boot.bin
+ 	echo "/* AUTO-GENERATED */" > $@
+ 	echo "const unsigned char $(notdir $(@:%.c=%))[] = {" >> $@
++	@echo "PATH: $(PATH)"
+ 	hexdump -v -e '/1 "0x%02x, "' $< >> $@
+ 	echo "};" >> $@
+ 	echo "const unsigned $(notdir $(@:%.c=%))_length = sizeof($(notdir $(@:%.c=%)));" >> $@
+-- 
+2.34.1
+
