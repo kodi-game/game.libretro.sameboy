@@ -10,7 +10,5 @@ add_custom_target(build_hexdump
   COMMENT "Building hexdump using Makefile"
 )
 
-# Make the default build target depend on the build_hexdump target
-add_custom_target(all
- DEPENDS build_hexdump
-)
+# Add an alias to build the hexdump by default when you build the project
+add_custom_target(all_hexdump DEPENDS build_hexdump)
