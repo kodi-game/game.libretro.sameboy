@@ -120,7 +120,7 @@ endif()
 # Ensure that the installation path is added to the `PATH` environment
 # variable. This is necessary so that the core's build system can locate
 # and use any binaries provided by dependencies.
-set(BUILD_COMMAND PATH="${CMAKE_INSTALL_PREFIX}/bin-native:$ENV{PATH}" ${BUILD_COMMAND})
+list(APPEND BUILD_COMMAND PATH="${CMAKE_INSTALL_PREFIX}/bin-native:$ENV{PATH}")
 
 externalproject_add(${PROJECT_NAME}
                     SOURCE_DIR ${PROJECT_SOURCE_DIR}
