@@ -7,6 +7,11 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
+# Ensure that the installation path is added to the `PATH` environment
+# variable. This is necessary so that the core's build system can locate
+# and use any binaries provided by dependencies.
+set(ENV{PATH} "${CMAKE_INSTALL_PREFIX}/bin:$ENV{PATH}")
+
 set(LIBRETRO_BINARY_DIR libretro)
 set(LIBRETRO_SONAME sameboy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
