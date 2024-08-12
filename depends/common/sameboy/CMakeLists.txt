@@ -7,6 +7,11 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
+# Ensure that the installation path is added to the `PATH` environment
+# variable. This is necessary so that the core's build system can locate
+# and use any binaries provided by dependencies.
+set(BUILD_PATH PATH="${CMAKE_INSTALL_PREFIX}/bin-native:$ENV{PATH}")
+
 set(LIBRETRO_BINARY_DIR libretro)
 set(LIBRETRO_SONAME sameboy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
@@ -26,6 +31,7 @@ if(CORE_SYSTEM_NAME STREQUAL windows)
                     -j$ENV{NUMBER_OF_PROCESSORS}
                     -C libretro
                     -f Makefile
+                    ${BUILD_PATH}
                     ${LIBRETRO_DEBUG}
                     GIT_VERSION=
                     MSYSTEM=${MSYSTEM}
@@ -35,6 +41,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL linux)
   set(BUILD_COMMAND $(MAKE)
                     -C libretro
                     -f Makefile
+                    ${BUILD_PATH}
                     ${LIBRETRO_DEBUG}
                     GIT_VERSION=
                     platform=unix
@@ -48,6 +55,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL osx)
   set(BUILD_COMMAND $(MAKE)
                     -C libretro
                     -f Makefile
+                    ${BUILD_PATH}
                     ${LIBRETRO_DEBUG}
                     arch=${ARCH}
                     CROSS_COMPILE=1
@@ -67,6 +75,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedde
     set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE)
                                                   -C libretro
                                                   -f Makefile
+                                                  ${BUILD_PATH}
                                                   ${LIBRETRO_DEBUG}
                                                   GIT_VERSION=
                                                   platform=${PLATFORM}
@@ -76,6 +85,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedde
     set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE)
                                                   -C libretro
                                                   -f Makefile
+                                                  ${BUILD_PATH}
                                                   ${LIBRETRO_DEBUG}
                                                   GIT_VERSION=
                                                   platform=tvos-arm64
@@ -94,6 +104,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL android)
   endif()
   set(BUILD_COMMAND GNUMAKE=$(MAKE) ${NDKROOT}/ndk-build
                                     -C libretro/jni
+                                    ${BUILD_PATH}
                                     ${LIBRETRO_DEBUG}
                                     APP_ABI=${PLATFORM}
                                     APP_SHORT_COMMANDS=true
@@ -109,6 +120,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
   set(BUILD_COMMAND $(MAKE)
                     -C libretro
                     -f Makefile
+                    ${BUILD_PATH}
                     ${LIBRETRO_DEBUG
                     GIT_VERSION=
                     platform=unix
@@ -116,11 +128,6 @@ elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
 else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
-
-# Ensure that the installation path is added to the `PATH` environment
-# variable. This is necessary so that the core's build system can locate
-# and use any binaries provided by dependencies.
-list(APPEND BUILD_COMMAND PATH="${CMAKE_INSTALL_PREFIX}/bin-native:$ENV{PATH}")
 
 externalproject_add(${PROJECT_NAME}
                     SOURCE_DIR ${PROJECT_SOURCE_DIR}
