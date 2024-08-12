@@ -7,11 +7,6 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
-# Ensure that the installation path is added to the `PATH` environment
-# variable. This is necessary so that the core's build system can locate
-# and use any binaries provided by dependencies.
-set(ENV{PATH} "${CMAKE_INSTALL_PREFIX}/bin:$ENV{PATH}")
-
 set(LIBRETRO_BINARY_DIR libretro)
 set(LIBRETRO_SONAME sameboy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
@@ -121,6 +116,11 @@ elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
 else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
+
+# Ensure that the installation path is added to the `PATH` environment
+# variable. This is necessary so that the core's build system can locate
+# and use any binaries provided by dependencies.
+set(BUILD_COMMAND PATH="${CMAKE_INSTALL_PREFIX}/bin:$ENV{PATH}" ${BUILD_COMMAND})
 
 externalproject_add(${PROJECT_NAME}
                     SOURCE_DIR ${PROJECT_SOURCE_DIR}
