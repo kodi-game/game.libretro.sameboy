@@ -1,29 +1,31 @@
-From a04628bafa345ee37dfaef5464b017d61efa87e4 Mon Sep 17 00:00:00 2001
+From 1acc913535c3785123e42c1b8825696edbc386af Mon Sep 17 00:00:00 2001
 From: Garrett Brown <themagnificentmrb@gmail.com>
 Date: Sun, 11 Aug 2024 19:06:20 -0700
 Subject: [PATCH] [temp] Print PATH var on Android
 
 ---
- libretro/jni/Android.mk | 6 ++++++
- 1 file changed, 6 insertions(+)
+ libretro/jni/Android.mk | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
 
 diff --git a/libretro/jni/Android.mk b/libretro/jni/Android.mk
-index 0a967b1..aec7c9c 100644
+index 0a967b1..fbaf386 100644
 --- a/libretro/jni/Android.mk
 +++ b/libretro/jni/Android.mk
-@@ -25,6 +25,12 @@ include $(BUILD_SHARED_LIBRARY)
+@@ -25,7 +25,13 @@ include $(BUILD_SHARED_LIBRARY)
  $(CORE_DIR)/libretro/%_boot.c: $(CORE_DIR)/BootROMs/prebuilt/%_boot.bin
  	echo "/* AUTO-GENERATED */" > $@
  	echo "const unsigned char $(notdir $(@:%.c=%))[] = {" >> $@
+-	hexdump -v -e '/1 "0x%02x, "' $< >> $@
 +	@echo "PATH: $(PATH)"
 +	@export PATH=$(PATH)
 +	@echo "Contents of bin-native:"
 +	@ls -l /home/jenkins/workspace/binary-addons/kodi-android-armv7-Omega/tools/depends/target/binary-addons/arm-linux-androideabi-21-release/build/depends/bin-native
 +	@echo "Trying to run hexdump with explicit path:"
 +	/home/jenkins/workspace/binary-addons/kodi-android-armv7-Omega/tools/depends/target/binary-addons/arm-linux-androideabi-21-release/build/depends/bin-native/hexdump -V
- 	hexdump -v -e '/1 "0x%02x, "' $< >> $@
++	/home/jenkins/workspace/binary-addons/kodi-android-armv7-Omega/tools/depends/target/binary-addons/arm-linux-androideabi-21-release/build/depends/bin-native/hexdump -v -e '/1 "0x%02x, "' $< >> $@
  	echo "};" >> $@
  	echo "const unsigned $(notdir $(@:%.c=%))_length = sizeof($(notdir $(@:%.c=%)));" >> $@
+ 
 -- 
 2.34.1
 
