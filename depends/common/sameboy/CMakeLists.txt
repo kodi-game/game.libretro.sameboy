@@ -31,7 +31,6 @@ if(CORE_SYSTEM_NAME STREQUAL windows)
                     -j$ENV{NUMBER_OF_PROCESSORS}
                     -C libretro
                     -f Makefile
-                    ${BUILD_PATH}
                     ${LIBRETRO_DEBUG}
                     GIT_VERSION=
                     MSYSTEM=${MSYSTEM}
