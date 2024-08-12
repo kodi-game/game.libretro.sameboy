@@ -1,0 +1,26 @@
+From fe4e5c0e56f2c72b8b301724c12b7bd3ede1c60f Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sun, 11 Aug 2024 18:54:28 -0700
+Subject: [PATCH] [temp] PATH debugging
+
+---
+ GNUmakefile | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/GNUmakefile b/GNUmakefile
+index d7a8fd6..0430eac 100644
+--- a/GNUmakefile
++++ b/GNUmakefile
+@@ -1,4 +1,8 @@
+-all: # default rule
++all: print-path
++	@exit 1
++
++print-path:
++	@echo "PATH: $$PATH"
+ 
+ #
+ # G N U  M A K E  F U N C T I O N S
+-- 
+2.34.1
+
