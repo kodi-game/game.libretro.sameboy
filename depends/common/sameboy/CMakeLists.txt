@@ -12,6 +12,8 @@ string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 # and use any binaries provided by dependencies.
 set(ENV{PATH} "${CMAKE_INSTALL_PREFIX}/bin:$ENV{PATH}")
 
+message(FATAL_ERROR "CMAKE_INSTALL_PREFIX is set to: ${CMAKE_INSTALL_PREFIX}")
+
 set(LIBRETRO_BINARY_DIR libretro)
 set(LIBRETRO_SONAME sameboy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
