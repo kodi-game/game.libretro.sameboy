@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="sameboy_model" values="Auto|Auto (SGB)|Game Boy|Game Boy Color C|Game Boy Color|Game Boy Advance|Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Auto"/>
 		<setting label="30002" type="select" id="sameboy_auto_sgb_model" values="Super Game Boy|Super Game Boy PAL|Super Game Boy 2" default="Super Game Boy"/>
 		<setting label="30003" type="select" id="sameboy_rtc" values="sync to system clock|accurate" default="sync to system clock"/>
