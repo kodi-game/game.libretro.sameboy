@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C."
 msgstr "SameBoy er en open source Gameboy (DMG) og Gameboy Color (CGB) emulator, skrevet i bærbar C."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "System - Emulated Model (Requires Restart)"
 msgstr "System - emuleret model (kræver genstart)"
@@ -144,3 +140,7 @@ msgstr "Indgang - Rystetilstand til Game Boy #1"
 msgctxt "#30029"
 msgid "Input - Rumble Mode for Game Boy #2"
 msgstr "Indgang - Rystetilstand til Game Boy #2"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
