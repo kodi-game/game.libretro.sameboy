@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.sameboy\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2021-08-23 22:56i\n"
-"PO-Revision-Date: 2025-04-08 15:13+0000\n"
+"PO-Revision-Date: 2025-04-11 09:05+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-sameboy/sv_se/>\n"
 "Language: sv_se\n"
@@ -27,7 +27,7 @@ msgstr "SameBoy är en Gameboy (DMG)- och Gameboy Color (CGB)-emulator med öppe
 
 msgctxt "#30001"
 msgid "System - Emulated Model (Requires Restart)"
-msgstr ""
+msgstr "System - Emulerad modell (kräver omstart)"
 
 msgctxt "#30002"
 msgid "System - Auto Detected SGB Model (Requires Restart)"
