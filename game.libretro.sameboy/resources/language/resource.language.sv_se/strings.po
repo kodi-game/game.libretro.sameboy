@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.sameboy\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2021-08-23 22:56i\n"
-"PO-Revision-Date: 2025-04-11 09:05+0000\n"
+"PO-Revision-Date: 2025-04-17 04:27+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-sameboy/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - Game Boy / Color (SameBoy)"
@@ -29,117 +29,135 @@ msgctxt "#30001"
 msgid "System - Emulated Model (Requires Restart)"
 msgstr "System - Emulerad modell (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30002"
 msgid "System - Auto Detected SGB Model (Requires Restart)"
-msgstr ""
+msgstr "System - Automatisk detektering av SGB-modell (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30003"
 msgid "System - Real Time Clock Emulation"
-msgstr ""
+msgstr "System - Emulering av realtidsklocka"
 
+#, fuzzy
 msgctxt "#30004"
 msgid "Video - GB Mono Palette"
-msgstr ""
+msgstr "Video - GB Mono-palett"
 
+#, fuzzy
 msgctxt "#30005"
 msgid "Video - GBC Color Correction"
-msgstr ""
+msgstr "Video - GBC Färgkorrigering"
 
+#, fuzzy
 msgctxt "#30006"
 msgid "Video - Ambient Light Temperature"
-msgstr ""
+msgstr "Video - Temperatur för omgivande ljus"
 
+#, fuzzy
 msgctxt "#30007"
 msgid "Video - Display Border"
-msgstr ""
+msgstr "Video - Display Border"
 
 msgctxt "#30008"
 msgid "Audio - Highpass Filter"
-msgstr ""
+msgstr "Ljud - Högpassfilter"
 
 msgctxt "#30009"
 msgid "Audio - Interference Volume"
-msgstr ""
+msgstr "Ljud - Störningsvolym"
 
+#, fuzzy
 msgctxt "#30010"
 msgid "Input - Rumble Mode"
-msgstr ""
+msgstr "Ingång - Rumble-läge"
 
+#, fuzzy
 msgctxt "#30011"
 msgid "System - Link Cable Emulation"
-msgstr ""
+msgstr "System - Emulering av länkkabel"
 
 msgctxt "#30012"
 msgid "System - Screen Layout"
-msgstr ""
+msgstr "System - Skärmlayout"
 
 msgctxt "#30013"
 msgid "System - Audio Output"
-msgstr ""
+msgstr "System - Ljudutgång"
 
+#, fuzzy
 msgctxt "#30014"
 msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
-msgstr ""
+msgstr "System - Emulerad modell för Game Boy #1 (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30015"
 msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
-msgstr ""
+msgstr "System - Automatisk detektering av SGB-modell för Game Boy #1 (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30016"
 msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
-msgstr ""
+msgstr "System - Emulerad modell för Game Boy #2 (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30017"
 msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
-msgstr ""
+msgstr "System - Automatisk detektering av SGB-modell för Game Boy #2 (kräver omstart)"
 
+#, fuzzy
 msgctxt "#30018"
 msgid "Video - GB Mono Palette for Game Boy #1"
-msgstr ""
+msgstr "Video - GB Mono Palette för Game Boy #1"
 
+#, fuzzy
 msgctxt "#30019"
 msgid "Video - GB Mono Palette for Game Boy #2"
-msgstr ""
+msgstr "Video - GB Mono Palette för Game Boy #2"
 
+#, fuzzy
 msgctxt "#30020"
 msgid "Video - GBC Color Correction for Game Boy #1"
-msgstr ""
+msgstr "Video - GBC Färgkorrigering för Game Boy #1"
 
+#, fuzzy
 msgctxt "#30021"
 msgid "Video - GBC Color Correction for Game Boy #2"
-msgstr ""
+msgstr "Video - GBC Färgkorrigering för Game Boy #2"
 
+#, fuzzy
 msgctxt "#30022"
 msgid "Video - Ambient Light Temperature for Game Boy #1"
-msgstr ""
+msgstr "Video - Omgivande ljustemperatur för Game Boy #1"
 
+#, fuzzy
 msgctxt "#30023"
 msgid "Video - Ambient Light Temperature for Game Boy #2"
-msgstr ""
+msgstr "Video - Omgivande ljustemperatur för Game Boy #2"
 
 msgctxt "#30024"
 msgid "Audio - Highpass Filter for Game Boy #1"
-msgstr ""
+msgstr "Ljud - Högpassfilter för Game Boy #1"
 
 msgctxt "#30025"
 msgid "Audio - Highpass Filter for Game Boy #2"
-msgstr ""
+msgstr "Ljud - Högpassfilter för Game Boy #2"
 
 msgctxt "#30026"
 msgid "Audio - Interference Volume for Game Boy #1"
-msgstr ""
+msgstr "Ljud - Interferensvolym för Game Boy #1"
 
 msgctxt "#30027"
 msgid "Audio - Interference Volume for Game Boy #2"
-msgstr ""
+msgstr "Ljud - Interferensvolym för Game Boy #2"
 
 msgctxt "#30028"
 msgid "Input - Rumble Mode for Game Boy #1"
-msgstr ""
+msgstr "Input - Rumble-läge för Game Boy #1"
 
 msgctxt "#30029"
 msgid "Input - Rumble Mode for Game Boy #2"
-msgstr ""
+msgstr "Input - Rumble-läge för Game Boy #2"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
