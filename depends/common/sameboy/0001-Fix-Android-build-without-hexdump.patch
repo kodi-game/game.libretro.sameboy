@@ -1,0 +1,27 @@
+From 962499940cc1f0878e34421e601ae4590503f1a8 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Fri, 21 Aug 2026 20:09:10 -0700
+Subject: [PATCH] Fix Android build without hexdump
+
+Use od and awk to generate the boot ROM sources, avoiding a dependency
+on the hexdump host utility.
+---
+ libretro/jni/Android.mk | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/libretro/jni/Android.mk b/libretro/jni/Android.mk
+index 0a967b1..47a98f3 100644
+--- a/libretro/jni/Android.mk
++++ b/libretro/jni/Android.mk
+@@ -25,7 +25,7 @@ include $(BUILD_SHARED_LIBRARY)
+ $(CORE_DIR)/libretro/%_boot.c: $(CORE_DIR)/BootROMs/prebuilt/%_boot.bin
+ 	echo "/* AUTO-GENERATED */" > $@
+ 	echo "const unsigned char $(notdir $(@:%.c=%))[] = {" >> $@
+-	hexdump -v -e '/1 "0x%02x, "' $< >> $@
++	od -An -v -t x1 $< | awk '{ for (i = 1; i <= NF; i++) printf "0x%s, ", $$i }' >> $@
+ 	echo "};" >> $@
+ 	echo "const unsigned $(notdir $(@:%.c=%))_length = sizeof($(notdir $(@:%.c=%)));" >> $@
+ 
+-- 
+2.43.0
+
