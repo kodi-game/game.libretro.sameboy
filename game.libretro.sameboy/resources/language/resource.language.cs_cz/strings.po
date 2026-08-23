@@ -568,3 +568,15 @@ msgstr "Určuje, který typ obsahu má při hraní na Game Boy #1 aktivovat vibr
 msgctxt "#30136"
 msgid "Defines which type of content should trigger rumble effects when played on Game Boy #2."
 msgstr "Určuje, který typ obsahu má při hraní na Game Boy #2 aktivovat vibrační efekty."
+
+msgctxt "#30137"
+msgid "Game Boy Advance"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Super Game Boy PAL"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Super Game Boy 2"
+msgstr ""
