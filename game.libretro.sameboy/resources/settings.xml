@@ -13,10 +13,10 @@
 							<option label="30035">Game Boy</option>
 							<option label="30036">Game Boy Color C</option>
 							<option label="30037">Game Boy Color</option>
-							<option>Game Boy Advance</option>
+							<option label="30137">Game Boy Advance</option>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -27,8 +27,8 @@
 					<constraints>
 						<options>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -87,10 +87,10 @@
 							<option label="30035">Game Boy</option>
 							<option label="30036">Game Boy Color C</option>
 							<option label="30037">Game Boy Color</option>
-							<option>Game Boy Advance</option>
+							<option label="30137">Game Boy Advance</option>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -101,8 +101,8 @@
 					<constraints>
 						<options>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -117,10 +117,10 @@
 							<option label="30035">Game Boy</option>
 							<option label="30036">Game Boy Color C</option>
 							<option label="30037">Game Boy Color</option>
-							<option>Game Boy Advance</option>
+							<option label="30137">Game Boy Advance</option>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -131,8 +131,8 @@
 					<constraints>
 						<options>
 							<option label="30038">Super Game Boy</option>
-							<option>Super Game Boy PAL</option>
-							<option>Super Game Boy 2</option>
+							<option label="30138">Super Game Boy PAL</option>
+							<option label="30139">Super Game Boy 2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
