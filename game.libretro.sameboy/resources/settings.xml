@@ -3,7 +3,7 @@
 	<section id="game.libretro.sameboy">
 		<category id="system" label="30030" help="30031">
 			<group id="1">
-				<setting id="sameboy_model" type="string" label="30001" help="30032">
+				<setting id="sameboy_model" type="string" label="30140" help="30032">
 					<level>0</level>
 					<default>Auto</default>
 					<constraints>
@@ -21,7 +21,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_auto_sgb_model" type="string" label="30002" help="30039">
+				<setting id="sameboy_auto_sgb_model" type="string" label="30141" help="30039">
 					<level>0</level>
 					<default>Super Game Boy</default>
 					<constraints>
@@ -33,7 +33,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_rtc" type="string" label="30003" help="30040">
+				<setting id="sameboy_rtc" type="string" label="30142" help="30040">
 					<level>0</level>
 					<default>sync to system clock</default>
 					<constraints>
@@ -44,7 +44,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_link" type="string" label="30011" help="30043">
+				<setting id="sameboy_link" type="string" label="30143" help="30043">
 					<level>0</level>
 					<default>enabled</default>
 					<constraints>
@@ -55,7 +55,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_screen_layout" type="string" label="30012" help="30046">
+				<setting id="sameboy_screen_layout" type="string" label="30144" help="30046">
 					<level>0</level>
 					<default>top-down</default>
 					<constraints>
@@ -66,7 +66,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_audio_output" type="string" label="30013" help="30049">
+				<setting id="sameboy_audio_output" type="string" label="30145" help="30049">
 					<level>0</level>
 					<default>Game Boy #1</default>
 					<constraints>
@@ -77,7 +77,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_model_1" type="string" label="30014" help="30050">
+				<setting id="sameboy_model_1" type="string" label="30146" help="30050">
 					<level>0</level>
 					<default>Auto</default>
 					<constraints>
@@ -95,7 +95,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_auto_sgb_model_1" type="string" label="30015" help="30051">
+				<setting id="sameboy_auto_sgb_model_1" type="string" label="30147" help="30051">
 					<level>0</level>
 					<default>Super Game Boy</default>
 					<constraints>
@@ -107,7 +107,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_model_2" type="string" label="30016" help="30052">
+				<setting id="sameboy_model_2" type="string" label="30148" help="30052">
 					<level>0</level>
 					<default>Auto</default>
 					<constraints>
@@ -125,7 +125,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_auto_sgb_model_2" type="string" label="30017" help="30053">
+				<setting id="sameboy_auto_sgb_model_2" type="string" label="30149" help="30053">
 					<level>0</level>
 					<default>Super Game Boy</default>
 					<constraints>
@@ -141,7 +141,7 @@
 		</category>
 		<category id="video" label="30054" help="30055">
 			<group id="1">
-				<setting id="sameboy_mono_palette" type="string" label="30004" help="30056">
+				<setting id="sameboy_mono_palette" type="string" label="30150" help="30056">
 					<level>0</level>
 					<default>greyscale</default>
 					<constraints>
@@ -154,7 +154,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_color_correction_mode" type="string" label="30005" help="30061">
+				<setting id="sameboy_color_correction_mode" type="string" label="30151" help="30061">
 					<level>0</level>
 					<default>emulate hardware</default>
 					<constraints>
@@ -170,7 +170,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_light_temperature" type="string" label="30006" help="30068">
+				<setting id="sameboy_light_temperature" type="string" label="30152" help="30068">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -200,7 +200,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_border" type="string" label="30007" help="30090">
+				<setting id="sameboy_border" type="string" label="30153" help="30090">
 					<level>0</level>
 					<default>Super Game Boy only</default>
 					<constraints>
@@ -212,7 +212,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_mono_palette_1" type="string" label="30018" help="30093">
+				<setting id="sameboy_mono_palette_1" type="string" label="30154" help="30093">
 					<level>0</level>
 					<default>greyscale</default>
 					<constraints>
@@ -225,7 +225,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_mono_palette_2" type="string" label="30019" help="30094">
+				<setting id="sameboy_mono_palette_2" type="string" label="30155" help="30094">
 					<level>0</level>
 					<default>greyscale</default>
 					<constraints>
@@ -238,7 +238,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_color_correction_mode_1" type="string" label="30020" help="30095">
+				<setting id="sameboy_color_correction_mode_1" type="string" label="30156" help="30095">
 					<level>0</level>
 					<default>emulate hardware</default>
 					<constraints>
@@ -254,7 +254,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_color_correction_mode_2" type="string" label="30021" help="30096">
+				<setting id="sameboy_color_correction_mode_2" type="string" label="30157" help="30096">
 					<level>0</level>
 					<default>emulate hardware</default>
 					<constraints>
@@ -270,7 +270,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_light_temperature_1" type="string" label="30022" help="30097">
+				<setting id="sameboy_light_temperature_1" type="string" label="30158" help="30097">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -300,7 +300,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_light_temperature_2" type="string" label="30023" help="30098">
+				<setting id="sameboy_light_temperature_2" type="string" label="30159" help="30098">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -334,7 +334,7 @@
 		</category>
 		<category id="audio" label="30099" help="30100">
 			<group id="1">
-				<setting id="sameboy_high_pass_filter_mode" type="string" label="30008" help="30101">
+				<setting id="sameboy_high_pass_filter_mode" type="string" label="30160" help="30101">
 					<level>0</level>
 					<default>accurate</default>
 					<constraints>
@@ -346,7 +346,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_audio_interference" type="string" label="30009" help="30103">
+				<setting id="sameboy_audio_interference" type="string" label="30161" help="30103">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -376,7 +376,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_high_pass_filter_mode_1" type="string" label="30024" help="30125">
+				<setting id="sameboy_high_pass_filter_mode_1" type="string" label="30162" help="30125">
 					<level>0</level>
 					<default>accurate</default>
 					<constraints>
@@ -388,7 +388,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_high_pass_filter_mode_2" type="string" label="30025" help="30127">
+				<setting id="sameboy_high_pass_filter_mode_2" type="string" label="30163" help="30127">
 					<level>0</level>
 					<default>accurate</default>
 					<constraints>
@@ -400,7 +400,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_audio_interference_1" type="string" label="30026" help="30128">
+				<setting id="sameboy_audio_interference_1" type="string" label="30164" help="30128">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -430,7 +430,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_audio_interference_2" type="string" label="30027" help="30129">
+				<setting id="sameboy_audio_interference_2" type="string" label="30165" help="30129">
 					<level>0</level>
 					<default>0</default>
 					<constraints>
@@ -464,7 +464,7 @@
 		</category>
 		<category id="input" label="30130" help="30131">
 			<group id="1">
-				<setting id="sameboy_rumble" type="string" label="30010" help="30132">
+				<setting id="sameboy_rumble" type="string" label="30166" help="30132">
 					<level>0</level>
 					<default>rumble-enabled games</default>
 					<constraints>
@@ -476,7 +476,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_rumble_1" type="string" label="30028" help="30135">
+				<setting id="sameboy_rumble_1" type="string" label="30167" help="30135">
 					<level>0</level>
 					<default>rumble-enabled games</default>
 					<constraints>
@@ -488,7 +488,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="sameboy_rumble_2" type="string" label="30029" help="30136">
+				<setting id="sameboy_rumble_2" type="string" label="30168" help="30136">
 					<level>0</level>
 					<default>rumble-enabled games</default>
 					<constraints>

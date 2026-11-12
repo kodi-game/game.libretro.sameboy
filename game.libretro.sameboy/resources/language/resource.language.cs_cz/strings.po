@@ -25,122 +25,6 @@ msgctxt "Addon Description"
 msgid "SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C."
 msgstr "SameBoy je open-source emulátor Game Boy (DMG) a Game Boy Color (CGB) napsaný v přenositelném C."
 
-msgctxt "#30001"
-msgid "System - Emulated Model (Requires Restart)"
-msgstr "Systém - emulovaný model (vyžaduje restart)"
-
-msgctxt "#30002"
-msgid "System - Auto Detected SGB Model (Requires Restart)"
-msgstr "Systém - automaticky rozpoznaný model SGB (vyžaduje restart)"
-
-msgctxt "#30003"
-msgid "System - Real Time Clock Emulation"
-msgstr "Systém - emulace hodin reálného času"
-
-msgctxt "#30004"
-msgid "Video - GB Mono Palette"
-msgstr "Video - monochromatická paleta GB"
-
-msgctxt "#30005"
-msgid "Video - GBC Color Correction"
-msgstr "Video - korekce barev GBC"
-
-msgctxt "#30006"
-msgid "Video - Ambient Light Temperature"
-msgstr "Video - teplota okolního osvětlení"
-
-msgctxt "#30007"
-msgid "Video - Display Border"
-msgstr "Video - okraj zobrazení"
-
-msgctxt "#30008"
-msgid "Audio - Highpass Filter"
-msgstr "Zvuk - horní propust"
-
-msgctxt "#30009"
-msgid "Audio - Interference Volume"
-msgstr "Zvuk - hlasitost rušení"
-
-msgctxt "#30010"
-msgid "Input - Rumble Mode"
-msgstr "Vstup - režim vibrací"
-
-msgctxt "#30011"
-msgid "System - Link Cable Emulation"
-msgstr "Systém - emulace Link Cable"
-
-msgctxt "#30012"
-msgid "System - Screen Layout"
-msgstr "Systém - rozložení obrazovek"
-
-msgctxt "#30013"
-msgid "System - Audio Output"
-msgstr "Systém - zvukový výstup"
-
-msgctxt "#30014"
-msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
-msgstr "Systém - emulovaný model pro Game Boy #1 (vyžaduje restart)"
-
-msgctxt "#30015"
-msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
-msgstr "Systém - automaticky rozpoznaný model SGB pro Game Boy #1 (vyžaduje restart)"
-
-msgctxt "#30016"
-msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
-msgstr "Systém - emulovaný model pro Game Boy #2 (vyžaduje restart)"
-
-msgctxt "#30017"
-msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
-msgstr "Systém - automaticky rozpoznaný model SGB pro Game Boy #2 (vyžaduje restart)"
-
-msgctxt "#30018"
-msgid "Video - GB Mono Palette for Game Boy #1"
-msgstr "Video - monochromatická paleta GB pro Game Boy #1"
-
-msgctxt "#30019"
-msgid "Video - GB Mono Palette for Game Boy #2"
-msgstr "Video - monochromatická paleta GB pro Game Boy #2"
-
-msgctxt "#30020"
-msgid "Video - GBC Color Correction for Game Boy #1"
-msgstr "Video - korekce barev GBC pro Game Boy #1"
-
-msgctxt "#30021"
-msgid "Video - GBC Color Correction for Game Boy #2"
-msgstr "Video - korekce barev GBC pro Game Boy #2"
-
-msgctxt "#30022"
-msgid "Video - Ambient Light Temperature for Game Boy #1"
-msgstr "Video - teplota okolního osvětlení pro Game Boy #1"
-
-msgctxt "#30023"
-msgid "Video - Ambient Light Temperature for Game Boy #2"
-msgstr "Video - teplota okolního osvětlení pro Game Boy #2"
-
-msgctxt "#30024"
-msgid "Audio - Highpass Filter for Game Boy #1"
-msgstr "Zvuk - horní propust pro Game Boy #1"
-
-msgctxt "#30025"
-msgid "Audio - Highpass Filter for Game Boy #2"
-msgstr "Zvuk - horní propust pro Game Boy #2"
-
-msgctxt "#30026"
-msgid "Audio - Interference Volume for Game Boy #1"
-msgstr "Zvuk - hlasitost rušení pro Game Boy #1"
-
-msgctxt "#30027"
-msgid "Audio - Interference Volume for Game Boy #2"
-msgstr "Zvuk - hlasitost rušení pro Game Boy #2"
-
-msgctxt "#30028"
-msgid "Input - Rumble Mode for Game Boy #1"
-msgstr "Vstup - režim vibrací pro Game Boy #1"
-
-msgctxt "#30029"
-msgid "Input - Rumble Mode for Game Boy #2"
-msgstr "Vstup - režim vibrací pro Game Boy #2"
-
 msgctxt "#30030"
 msgid "System"
 msgstr "Systém"
@@ -580,3 +464,235 @@ msgstr "Super Game Boy PAL"
 msgctxt "#30139"
 msgid "Super Game Boy 2"
 msgstr "Super Game Boy 2"
+
+msgctxt "#30140"
+msgid "Emulated Model (Requires Restart)"
+msgstr "Emulovaný model (vyžaduje restart)"
+
+msgctxt "#30141"
+msgid "Auto Detected SGB Model (Requires Restart)"
+msgstr "Automaticky rozpoznaný model SGB (vyžaduje restart)"
+
+msgctxt "#30142"
+msgid "Real Time Clock Emulation"
+msgstr "Emulace hodin reálného času"
+
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "Monochromatická paleta GB"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "Korekce barev GBC"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Teplota okolního osvětlení"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Okraj zobrazení"
+
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Horní propust"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Hlasitost rušení"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Režim vibrací"
+
+msgctxt "#30143"
+msgid "Link Cable Emulation"
+msgstr "Emulace Link Cable"
+
+msgctxt "#30144"
+msgid "Screen Layout"
+msgstr "Rozložení obrazovek"
+
+msgctxt "#30145"
+msgid "Audio Output"
+msgstr "Zvukový výstup"
+
+msgctxt "#30146"
+msgid "Emulated Model for Game Boy #1 (Requires Restart)"
+msgstr "Emulovaný model pro Game Boy #1 (vyžaduje restart)"
+
+msgctxt "#30147"
+msgid "Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
+msgstr "Automaticky rozpoznaný model SGB pro Game Boy #1 (vyžaduje restart)"
+
+msgctxt "#30148"
+msgid "Emulated Model for Game Boy #2 (Requires Restart)"
+msgstr "Emulovaný model pro Game Boy #2 (vyžaduje restart)"
+
+msgctxt "#30149"
+msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
+msgstr "Automaticky rozpoznaný model SGB pro Game Boy #2 (vyžaduje restart)"
+
+msgctxt "#30154"
+msgid "GB Mono Palette for Game Boy #1"
+msgstr "Monochromatická paleta GB pro Game Boy #1"
+
+msgctxt "#30155"
+msgid "GB Mono Palette for Game Boy #2"
+msgstr "Monochromatická paleta GB pro Game Boy #2"
+
+msgctxt "#30156"
+msgid "GBC Color Correction for Game Boy #1"
+msgstr "Korekce barev GBC pro Game Boy #1"
+
+msgctxt "#30157"
+msgid "GBC Color Correction for Game Boy #2"
+msgstr "Korekce barev GBC pro Game Boy #2"
+
+msgctxt "#30158"
+msgid "Ambient Light Temperature for Game Boy #1"
+msgstr "Teplota okolního osvětlení pro Game Boy #1"
+
+msgctxt "#30159"
+msgid "Ambient Light Temperature for Game Boy #2"
+msgstr "Teplota okolního osvětlení pro Game Boy #2"
+
+msgctxt "#30162"
+msgid "Highpass Filter for Game Boy #1"
+msgstr "Horní propust pro Game Boy #1"
+
+msgctxt "#30163"
+msgid "Highpass Filter for Game Boy #2"
+msgstr "Horní propust pro Game Boy #2"
+
+msgctxt "#30164"
+msgid "Interference Volume for Game Boy #1"
+msgstr "Hlasitost rušení pro Game Boy #1"
+
+msgctxt "#30165"
+msgid "Interference Volume for Game Boy #2"
+msgstr "Hlasitost rušení pro Game Boy #2"
+
+msgctxt "#30167"
+msgid "Rumble Mode for Game Boy #1"
+msgstr "Režim vibrací pro Game Boy #1"
+
+msgctxt "#30168"
+msgid "Rumble Mode for Game Boy #2"
+msgstr "Režim vibrací pro Game Boy #2"
+
+#~ msgctxt "#30001"
+#~ msgid "System - Emulated Model (Requires Restart)"
+#~ msgstr "Systém - emulovaný model (vyžaduje restart)"
+
+#~ msgctxt "#30002"
+#~ msgid "System - Auto Detected SGB Model (Requires Restart)"
+#~ msgstr "Systém - automaticky rozpoznaný model SGB (vyžaduje restart)"
+
+#~ msgctxt "#30003"
+#~ msgid "System - Real Time Clock Emulation"
+#~ msgstr "Systém - emulace hodin reálného času"
+
+#~ msgctxt "#30004"
+#~ msgid "Video - GB Mono Palette"
+#~ msgstr "Video - monochromatická paleta GB"
+
+#~ msgctxt "#30005"
+#~ msgid "Video - GBC Color Correction"
+#~ msgstr "Video - korekce barev GBC"
+
+#~ msgctxt "#30006"
+#~ msgid "Video - Ambient Light Temperature"
+#~ msgstr "Video - teplota okolního osvětlení"
+
+#~ msgctxt "#30007"
+#~ msgid "Video - Display Border"
+#~ msgstr "Video - okraj zobrazení"
+
+#~ msgctxt "#30008"
+#~ msgid "Audio - Highpass Filter"
+#~ msgstr "Zvuk - horní propust"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio - Interference Volume"
+#~ msgstr "Zvuk - hlasitost rušení"
+
+#~ msgctxt "#30010"
+#~ msgid "Input - Rumble Mode"
+#~ msgstr "Vstup - režim vibrací"
+
+#~ msgctxt "#30011"
+#~ msgid "System - Link Cable Emulation"
+#~ msgstr "Systém - emulace Link Cable"
+
+#~ msgctxt "#30012"
+#~ msgid "System - Screen Layout"
+#~ msgstr "Systém - rozložení obrazovek"
+
+#~ msgctxt "#30013"
+#~ msgid "System - Audio Output"
+#~ msgstr "Systém - zvukový výstup"
+
+#~ msgctxt "#30014"
+#~ msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
+#~ msgstr "Systém - emulovaný model pro Game Boy #1 (vyžaduje restart)"
+
+#~ msgctxt "#30015"
+#~ msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
+#~ msgstr "Systém - automaticky rozpoznaný model SGB pro Game Boy #1 (vyžaduje restart)"
+
+#~ msgctxt "#30016"
+#~ msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
+#~ msgstr "Systém - emulovaný model pro Game Boy #2 (vyžaduje restart)"
+
+#~ msgctxt "#30017"
+#~ msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
+#~ msgstr "Systém - automaticky rozpoznaný model SGB pro Game Boy #2 (vyžaduje restart)"
+
+#~ msgctxt "#30018"
+#~ msgid "Video - GB Mono Palette for Game Boy #1"
+#~ msgstr "Video - monochromatická paleta GB pro Game Boy #1"
+
+#~ msgctxt "#30019"
+#~ msgid "Video - GB Mono Palette for Game Boy #2"
+#~ msgstr "Video - monochromatická paleta GB pro Game Boy #2"
+
+#~ msgctxt "#30020"
+#~ msgid "Video - GBC Color Correction for Game Boy #1"
+#~ msgstr "Video - korekce barev GBC pro Game Boy #1"
+
+#~ msgctxt "#30021"
+#~ msgid "Video - GBC Color Correction for Game Boy #2"
+#~ msgstr "Video - korekce barev GBC pro Game Boy #2"
+
+#~ msgctxt "#30022"
+#~ msgid "Video - Ambient Light Temperature for Game Boy #1"
+#~ msgstr "Video - teplota okolního osvětlení pro Game Boy #1"
+
+#~ msgctxt "#30023"
+#~ msgid "Video - Ambient Light Temperature for Game Boy #2"
+#~ msgstr "Video - teplota okolního osvětlení pro Game Boy #2"
+
+#~ msgctxt "#30024"
+#~ msgid "Audio - Highpass Filter for Game Boy #1"
+#~ msgstr "Zvuk - horní propust pro Game Boy #1"
+
+#~ msgctxt "#30025"
+#~ msgid "Audio - Highpass Filter for Game Boy #2"
+#~ msgstr "Zvuk - horní propust pro Game Boy #2"
+
+#~ msgctxt "#30026"
+#~ msgid "Audio - Interference Volume for Game Boy #1"
+#~ msgstr "Zvuk - hlasitost rušení pro Game Boy #1"
+
+#~ msgctxt "#30027"
+#~ msgid "Audio - Interference Volume for Game Boy #2"
+#~ msgstr "Zvuk - hlasitost rušení pro Game Boy #2"
+
+#~ msgctxt "#30028"
+#~ msgid "Input - Rumble Mode for Game Boy #1"
+#~ msgstr "Vstup - režim vibrací pro Game Boy #1"
+
+#~ msgctxt "#30029"
+#~ msgid "Input - Rumble Mode for Game Boy #2"
+#~ msgstr "Vstup - režim vibrací pro Game Boy #2"

@@ -25,122 +25,6 @@ msgctxt "Addon Description"
 msgid "SameBoy is an open source Gameboy (DMG) and Gameboy Color (CGB) emulator, written in portable C."
 msgstr "SameBoy — это эмулятор Gameboy (DMG) и Gameboy Color (CGB) с открытым исходным кодом, написанный на переносимом C."
 
-msgctxt "#30001"
-msgid "System - Emulated Model (Requires Restart)"
-msgstr "Система — Эмулируемая модель (Требуется перезапуск)"
-
-msgctxt "#30002"
-msgid "System - Auto Detected SGB Model (Requires Restart)"
-msgstr "Система — Автоопределяемая модель SGB (Требуется перезапуск)"
-
-msgctxt "#30003"
-msgid "System - Real Time Clock Emulation"
-msgstr "Система — Эмуляция часов реального времени"
-
-msgctxt "#30004"
-msgid "Video - GB Mono Palette"
-msgstr "Видео — Монохромная палитра GB"
-
-msgctxt "#30005"
-msgid "Video - GBC Color Correction"
-msgstr "Видео — Цветовая коррекция GBC"
-
-msgctxt "#30006"
-msgid "Video - Ambient Light Temperature"
-msgstr "Видео — Температура окружающего света"
-
-msgctxt "#30007"
-msgid "Video - Display Border"
-msgstr "Видео — Отображать границу"
-
-msgctxt "#30008"
-msgid "Audio - Highpass Filter"
-msgstr "Аудио — Фильтр высоких частот"
-
-msgctxt "#30009"
-msgid "Audio - Interference Volume"
-msgstr "Аудио — Громкость помех"
-
-msgctxt "#30010"
-msgid "Input - Rumble Mode"
-msgstr "Ввод — Режим вибрации"
-
-msgctxt "#30011"
-msgid "System - Link Cable Emulation"
-msgstr "Система — Эмуляция кабеля связи"
-
-msgctxt "#30012"
-msgid "System - Screen Layout"
-msgstr "Система — Компоновка экрана"
-
-msgctxt "#30013"
-msgid "System - Audio Output"
-msgstr "Система — Аудиовыход"
-
-msgctxt "#30014"
-msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
-msgstr "Система — Эмулируемая модель для Game Boy №1 (Требуется перезапуск)"
-
-msgctxt "#30015"
-msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
-msgstr "Система — Автоопределяемая модель SGB для Game Boy №1 (Требуется перезапуск)"
-
-msgctxt "#30016"
-msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
-msgstr "Система — Эмулируемая модель для Game Boy №2 (Требуется перезапуск)"
-
-msgctxt "#30017"
-msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
-msgstr "Система — Автоопределяемая модель SGB для Game Boy №2 (Требуется перезапуск)"
-
-msgctxt "#30018"
-msgid "Video - GB Mono Palette for Game Boy #1"
-msgstr "Видео — Монохромная палитра GB для Game Boy №1"
-
-msgctxt "#30019"
-msgid "Video - GB Mono Palette for Game Boy #2"
-msgstr "Видео — Монохромная палитра GB для Game Boy №2"
-
-msgctxt "#30020"
-msgid "Video - GBC Color Correction for Game Boy #1"
-msgstr "Видео — Цветовая коррекция GBC для Game Boy №1"
-
-msgctxt "#30021"
-msgid "Video - GBC Color Correction for Game Boy #2"
-msgstr "Видео — Цветовая коррекция GBC для Game Boy №2"
-
-msgctxt "#30022"
-msgid "Video - Ambient Light Temperature for Game Boy #1"
-msgstr "Видео — Температура окружающего света для Game Boy №1"
-
-msgctxt "#30023"
-msgid "Video - Ambient Light Temperature for Game Boy #2"
-msgstr "Видео — Температура окружающего света для Game Boy №2"
-
-msgctxt "#30024"
-msgid "Audio - Highpass Filter for Game Boy #1"
-msgstr "Аудио — Фильтр высоких частот для Game Boy №1"
-
-msgctxt "#30025"
-msgid "Audio - Highpass Filter for Game Boy #2"
-msgstr "Аудио — Фильтр высоких частот для Game Boy №2"
-
-msgctxt "#30026"
-msgid "Audio - Interference Volume for Game Boy #1"
-msgstr "Аудио — Громкость помех для Game Boy №1"
-
-msgctxt "#30027"
-msgid "Audio - Interference Volume for Game Boy #2"
-msgstr "Аудио — Громкость помех для Game Boy №2"
-
-msgctxt "#30028"
-msgid "Input - Rumble Mode for Game Boy #1"
-msgstr "Ввод — Режим вибрации для Game Boy №1"
-
-msgctxt "#30029"
-msgid "Input - Rumble Mode for Game Boy #2"
-msgstr "Ввод — Режим вибрации для Game Boy №2"
-
 msgctxt "#30030"
 msgid "System"
 msgstr "Система"
@@ -580,6 +464,238 @@ msgstr "Super Game Boy PAL"
 msgctxt "#30139"
 msgid "Super Game Boy 2"
 msgstr "Super Game Boy 2"
+
+msgctxt "#30140"
+msgid "Emulated Model (Requires Restart)"
+msgstr "Эмулируемая модель (Требуется перезапуск)"
+
+msgctxt "#30141"
+msgid "Auto Detected SGB Model (Requires Restart)"
+msgstr "Автоопределяемая модель SGB (Требуется перезапуск)"
+
+msgctxt "#30142"
+msgid "Real Time Clock Emulation"
+msgstr "Эмуляция часов реального времени"
+
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "Монохромная палитра GB"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "Цветовая коррекция GBC"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Температура окружающего света"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Отображать границу"
+
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Фильтр высоких частот"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Громкость помех"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Режим вибрации"
+
+msgctxt "#30143"
+msgid "Link Cable Emulation"
+msgstr "Эмуляция кабеля связи"
+
+msgctxt "#30144"
+msgid "Screen Layout"
+msgstr "Компоновка экрана"
+
+msgctxt "#30145"
+msgid "Audio Output"
+msgstr "Аудиовыход"
+
+msgctxt "#30146"
+msgid "Emulated Model for Game Boy #1 (Requires Restart)"
+msgstr "Эмулируемая модель для Game Boy №1 (Требуется перезапуск)"
+
+msgctxt "#30147"
+msgid "Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
+msgstr "Автоопределяемая модель SGB для Game Boy №1 (Требуется перезапуск)"
+
+msgctxt "#30148"
+msgid "Emulated Model for Game Boy #2 (Requires Restart)"
+msgstr "Эмулируемая модель для Game Boy №2 (Требуется перезапуск)"
+
+msgctxt "#30149"
+msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
+msgstr "Автоопределяемая модель SGB для Game Boy №2 (Требуется перезапуск)"
+
+msgctxt "#30154"
+msgid "GB Mono Palette for Game Boy #1"
+msgstr "Монохромная палитра GB для Game Boy №1"
+
+msgctxt "#30155"
+msgid "GB Mono Palette for Game Boy #2"
+msgstr "Монохромная палитра GB для Game Boy №2"
+
+msgctxt "#30156"
+msgid "GBC Color Correction for Game Boy #1"
+msgstr "Цветовая коррекция GBC для Game Boy №1"
+
+msgctxt "#30157"
+msgid "GBC Color Correction for Game Boy #2"
+msgstr "Цветовая коррекция GBC для Game Boy №2"
+
+msgctxt "#30158"
+msgid "Ambient Light Temperature for Game Boy #1"
+msgstr "Температура окружающего света для Game Boy №1"
+
+msgctxt "#30159"
+msgid "Ambient Light Temperature for Game Boy #2"
+msgstr "Температура окружающего света для Game Boy №2"
+
+msgctxt "#30162"
+msgid "Highpass Filter for Game Boy #1"
+msgstr "Фильтр высоких частот для Game Boy №1"
+
+msgctxt "#30163"
+msgid "Highpass Filter for Game Boy #2"
+msgstr "Фильтр высоких частот для Game Boy №2"
+
+msgctxt "#30164"
+msgid "Interference Volume for Game Boy #1"
+msgstr "Громкость помех для Game Boy №1"
+
+msgctxt "#30165"
+msgid "Interference Volume for Game Boy #2"
+msgstr "Громкость помех для Game Boy №2"
+
+msgctxt "#30167"
+msgid "Rumble Mode for Game Boy #1"
+msgstr "Режим вибрации для Game Boy №1"
+
+msgctxt "#30168"
+msgid "Rumble Mode for Game Boy #2"
+msgstr "Режим вибрации для Game Boy №2"
+
+#~ msgctxt "#30001"
+#~ msgid "System - Emulated Model (Requires Restart)"
+#~ msgstr "Система — Эмулируемая модель (Требуется перезапуск)"
+
+#~ msgctxt "#30002"
+#~ msgid "System - Auto Detected SGB Model (Requires Restart)"
+#~ msgstr "Система — Автоопределяемая модель SGB (Требуется перезапуск)"
+
+#~ msgctxt "#30003"
+#~ msgid "System - Real Time Clock Emulation"
+#~ msgstr "Система — Эмуляция часов реального времени"
+
+#~ msgctxt "#30004"
+#~ msgid "Video - GB Mono Palette"
+#~ msgstr "Видео — Монохромная палитра GB"
+
+#~ msgctxt "#30005"
+#~ msgid "Video - GBC Color Correction"
+#~ msgstr "Видео — Цветовая коррекция GBC"
+
+#~ msgctxt "#30006"
+#~ msgid "Video - Ambient Light Temperature"
+#~ msgstr "Видео — Температура окружающего света"
+
+#~ msgctxt "#30007"
+#~ msgid "Video - Display Border"
+#~ msgstr "Видео — Отображать границу"
+
+#~ msgctxt "#30008"
+#~ msgid "Audio - Highpass Filter"
+#~ msgstr "Аудио — Фильтр высоких частот"
+
+#~ msgctxt "#30009"
+#~ msgid "Audio - Interference Volume"
+#~ msgstr "Аудио — Громкость помех"
+
+#~ msgctxt "#30010"
+#~ msgid "Input - Rumble Mode"
+#~ msgstr "Ввод — Режим вибрации"
+
+#~ msgctxt "#30011"
+#~ msgid "System - Link Cable Emulation"
+#~ msgstr "Система — Эмуляция кабеля связи"
+
+#~ msgctxt "#30012"
+#~ msgid "System - Screen Layout"
+#~ msgstr "Система — Компоновка экрана"
+
+#~ msgctxt "#30013"
+#~ msgid "System - Audio Output"
+#~ msgstr "Система — Аудиовыход"
+
+#~ msgctxt "#30014"
+#~ msgid "System - Emulated Model for Game Boy #1 (Requires Restart)"
+#~ msgstr "Система — Эмулируемая модель для Game Boy №1 (Требуется перезапуск)"
+
+#~ msgctxt "#30015"
+#~ msgid "System - Auto Detected SGB Model for Game Boy #1 (Requires Restart)"
+#~ msgstr "Система — Автоопределяемая модель SGB для Game Boy №1 (Требуется перезапуск)"
+
+#~ msgctxt "#30016"
+#~ msgid "System - Emulated Model for Game Boy #2 (Requires Restart)"
+#~ msgstr "Система — Эмулируемая модель для Game Boy №2 (Требуется перезапуск)"
+
+#~ msgctxt "#30017"
+#~ msgid "System - Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
+#~ msgstr "Система — Автоопределяемая модель SGB для Game Boy №2 (Требуется перезапуск)"
+
+#~ msgctxt "#30018"
+#~ msgid "Video - GB Mono Palette for Game Boy #1"
+#~ msgstr "Видео — Монохромная палитра GB для Game Boy №1"
+
+#~ msgctxt "#30019"
+#~ msgid "Video - GB Mono Palette for Game Boy #2"
+#~ msgstr "Видео — Монохромная палитра GB для Game Boy №2"
+
+#~ msgctxt "#30020"
+#~ msgid "Video - GBC Color Correction for Game Boy #1"
+#~ msgstr "Видео — Цветовая коррекция GBC для Game Boy №1"
+
+#~ msgctxt "#30021"
+#~ msgid "Video - GBC Color Correction for Game Boy #2"
+#~ msgstr "Видео — Цветовая коррекция GBC для Game Boy №2"
+
+#~ msgctxt "#30022"
+#~ msgid "Video - Ambient Light Temperature for Game Boy #1"
+#~ msgstr "Видео — Температура окружающего света для Game Boy №1"
+
+#~ msgctxt "#30023"
+#~ msgid "Video - Ambient Light Temperature for Game Boy #2"
+#~ msgstr "Видео — Температура окружающего света для Game Boy №2"
+
+#~ msgctxt "#30024"
+#~ msgid "Audio - Highpass Filter for Game Boy #1"
+#~ msgstr "Аудио — Фильтр высоких частот для Game Boy №1"
+
+#~ msgctxt "#30025"
+#~ msgid "Audio - Highpass Filter for Game Boy #2"
+#~ msgstr "Аудио — Фильтр высоких частот для Game Boy №2"
+
+#~ msgctxt "#30026"
+#~ msgid "Audio - Interference Volume for Game Boy #1"
+#~ msgstr "Аудио — Громкость помех для Game Boy №1"
+
+#~ msgctxt "#30027"
+#~ msgid "Audio - Interference Volume for Game Boy #2"
+#~ msgstr "Аудио — Громкость помех для Game Boy №2"
+
+#~ msgctxt "#30028"
+#~ msgid "Input - Rumble Mode for Game Boy #1"
+#~ msgstr "Ввод — Режим вибрации для Game Boy №1"
+
+#~ msgctxt "#30029"
+#~ msgid "Input - Rumble Mode for Game Boy #2"
+#~ msgstr "Ввод — Режим вибрации для Game Boy №2"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
