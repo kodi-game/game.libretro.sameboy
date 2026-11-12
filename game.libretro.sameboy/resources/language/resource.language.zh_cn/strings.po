@@ -477,34 +477,6 @@ msgctxt "#30142"
 msgid "Real Time Clock Emulation"
 msgstr "实时时钟仿真"
 
-msgctxt "#30150"
-msgid "GB Mono Palette"
-msgstr "GB 单色调色板"
-
-msgctxt "#30151"
-msgid "GBC Color Correction"
-msgstr "GBC 颜色校正"
-
-msgctxt "#30152"
-msgid "Ambient Light Temperature"
-msgstr "环境光温度"
-
-msgctxt "#30153"
-msgid "Display Border"
-msgstr "显示边界"
-
-msgctxt "#30160"
-msgid "Highpass Filter"
-msgstr "高通滤波器"
-
-msgctxt "#30161"
-msgid "Interference Volume"
-msgstr "干扰音量"
-
-msgctxt "#30166"
-msgid "Rumble Mode"
-msgstr "隆隆声模式"
-
 msgctxt "#30143"
 msgid "Link Cable Emulation"
 msgstr "链路电缆仿真"
@@ -533,6 +505,22 @@ msgctxt "#30149"
 msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr "Game Boy #2 自动检测的 SGB 型号（需要重新启动）"
 
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "GB 单色调色板"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "GBC 颜色校正"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "环境光温度"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "显示边界"
+
 msgctxt "#30154"
 msgid "GB Mono Palette for Game Boy #1"
 msgstr "Game Boy #1 的 GB 单色调色板"
@@ -557,6 +545,14 @@ msgctxt "#30159"
 msgid "Ambient Light Temperature for Game Boy #2"
 msgstr "Game Boy #2 的环境光温度"
 
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "高通滤波器"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "干扰音量"
+
 msgctxt "#30162"
 msgid "Highpass Filter for Game Boy #1"
 msgstr "Game Boy #1 的高通滤波器"
@@ -572,6 +568,10 @@ msgstr "Game Boy #1 的干扰音量"
 msgctxt "#30165"
 msgid "Interference Volume for Game Boy #2"
 msgstr "Game Boy #2 的干扰音量"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "隆隆声模式"
 
 msgctxt "#30167"
 msgid "Rumble Mode for Game Boy #1"

@@ -477,34 +477,6 @@ msgctxt "#30142"
 msgid "Real Time Clock Emulation"
 msgstr "Emulazione orologio in tempo reale"
 
-msgctxt "#30150"
-msgid "GB Mono Palette"
-msgstr "Tavolozza monocromatica GB"
-
-msgctxt "#30151"
-msgid "GBC Color Correction"
-msgstr "Correzione colore GBC"
-
-msgctxt "#30152"
-msgid "Ambient Light Temperature"
-msgstr "Temperatura luce ambientale"
-
-msgctxt "#30153"
-msgid "Display Border"
-msgstr "Bordo dello schermo"
-
-msgctxt "#30160"
-msgid "Highpass Filter"
-msgstr "Filtro passa-alto"
-
-msgctxt "#30161"
-msgid "Interference Volume"
-msgstr "Volume interferenza"
-
-msgctxt "#30166"
-msgid "Rumble Mode"
-msgstr "Modalità vibrazione"
-
 msgctxt "#30143"
 msgid "Link Cable Emulation"
 msgstr "Emulazione cavo link"
@@ -533,6 +505,22 @@ msgctxt "#30149"
 msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr "Modello SGB rilevato automaticamente per Game Boy #2 (richiede riavvio)"
 
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "Tavolozza monocromatica GB"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "Correzione colore GBC"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Temperatura luce ambientale"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Bordo dello schermo"
+
 msgctxt "#30154"
 msgid "GB Mono Palette for Game Boy #1"
 msgstr "Tavolozza monocromatica GB per Game Boy #1"
@@ -557,6 +545,14 @@ msgctxt "#30159"
 msgid "Ambient Light Temperature for Game Boy #2"
 msgstr "Temperatura luce ambientale per Game Boy #2"
 
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Filtro passa-alto"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Volume interferenza"
+
 msgctxt "#30162"
 msgid "Highpass Filter for Game Boy #1"
 msgstr "Filtro passa-alto per Game Boy #1"
@@ -572,6 +568,10 @@ msgstr "Volume interferenza per Game Boy #1"
 msgctxt "#30165"
 msgid "Interference Volume for Game Boy #2"
 msgstr "Volume interferenza per Game Boy #2"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Modalità vibrazione"
 
 msgctxt "#30167"
 msgid "Rumble Mode for Game Boy #1"

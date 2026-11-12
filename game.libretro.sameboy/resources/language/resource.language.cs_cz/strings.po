@@ -477,34 +477,6 @@ msgctxt "#30142"
 msgid "Real Time Clock Emulation"
 msgstr "Emulace hodin reálného času"
 
-msgctxt "#30150"
-msgid "GB Mono Palette"
-msgstr "Monochromatická paleta GB"
-
-msgctxt "#30151"
-msgid "GBC Color Correction"
-msgstr "Korekce barev GBC"
-
-msgctxt "#30152"
-msgid "Ambient Light Temperature"
-msgstr "Teplota okolního osvětlení"
-
-msgctxt "#30153"
-msgid "Display Border"
-msgstr "Okraj zobrazení"
-
-msgctxt "#30160"
-msgid "Highpass Filter"
-msgstr "Horní propust"
-
-msgctxt "#30161"
-msgid "Interference Volume"
-msgstr "Hlasitost rušení"
-
-msgctxt "#30166"
-msgid "Rumble Mode"
-msgstr "Režim vibrací"
-
 msgctxt "#30143"
 msgid "Link Cable Emulation"
 msgstr "Emulace Link Cable"
@@ -533,6 +505,22 @@ msgctxt "#30149"
 msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr "Automaticky rozpoznaný model SGB pro Game Boy #2 (vyžaduje restart)"
 
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "Monochromatická paleta GB"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "Korekce barev GBC"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Teplota okolního osvětlení"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Okraj zobrazení"
+
 msgctxt "#30154"
 msgid "GB Mono Palette for Game Boy #1"
 msgstr "Monochromatická paleta GB pro Game Boy #1"
@@ -557,6 +545,14 @@ msgctxt "#30159"
 msgid "Ambient Light Temperature for Game Boy #2"
 msgstr "Teplota okolního osvětlení pro Game Boy #2"
 
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Horní propust"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Hlasitost rušení"
+
 msgctxt "#30162"
 msgid "Highpass Filter for Game Boy #1"
 msgstr "Horní propust pro Game Boy #1"
@@ -572,6 +568,10 @@ msgstr "Hlasitost rušení pro Game Boy #1"
 msgctxt "#30165"
 msgid "Interference Volume for Game Boy #2"
 msgstr "Hlasitost rušení pro Game Boy #2"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Režim vibrací"
 
 msgctxt "#30167"
 msgid "Rumble Mode for Game Boy #1"

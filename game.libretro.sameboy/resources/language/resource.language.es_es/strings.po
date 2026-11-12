@@ -477,34 +477,6 @@ msgctxt "#30142"
 msgid "Real Time Clock Emulation"
 msgstr "Emulación de Reloj en Tiempo Real"
 
-msgctxt "#30150"
-msgid "GB Mono Palette"
-msgstr "Paleta Monocromática GB"
-
-msgctxt "#30151"
-msgid "GBC Color Correction"
-msgstr "Corrección Color GBC"
-
-msgctxt "#30152"
-msgid "Ambient Light Temperature"
-msgstr "Temperatura Luz Ambiente"
-
-msgctxt "#30153"
-msgid "Display Border"
-msgstr "Borde de la Pantalla"
-
-msgctxt "#30160"
-msgid "Highpass Filter"
-msgstr "Filtro de Paso Alto"
-
-msgctxt "#30161"
-msgid "Interference Volume"
-msgstr "Volumen de Interferencia"
-
-msgctxt "#30166"
-msgid "Rumble Mode"
-msgstr "Modo de Vibración"
-
 msgctxt "#30143"
 msgid "Link Cable Emulation"
 msgstr "Emulación Cable Game Link"
@@ -533,6 +505,22 @@ msgctxt "#30149"
 msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr "Detección Automática Modelo SGB para Game Boy #2 (Requiere Reiniciar)"
 
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "Paleta Monocromática GB"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "Corrección Color GBC"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Temperatura Luz Ambiente"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Borde de la Pantalla"
+
 msgctxt "#30154"
 msgid "GB Mono Palette for Game Boy #1"
 msgstr "Paleta Monocromática GB para Game Boy #1"
@@ -557,6 +545,14 @@ msgctxt "#30159"
 msgid "Ambient Light Temperature for Game Boy #2"
 msgstr "Temperatura Luz Ambiente para Game Boy #2"
 
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Filtro de Paso Alto"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Volumen de Interferencia"
+
 msgctxt "#30162"
 msgid "Highpass Filter for Game Boy #1"
 msgstr "Filtro de Paso Alto para Game Boy #1"
@@ -572,6 +568,10 @@ msgstr "Volumen de Interferencia para Game Boy #1"
 msgctxt "#30165"
 msgid "Interference Volume for Game Boy #2"
 msgstr "Volumen de Interferencia para Game Boy #2"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Modo de Vibración"
 
 msgctxt "#30167"
 msgid "Rumble Mode for Game Boy #1"

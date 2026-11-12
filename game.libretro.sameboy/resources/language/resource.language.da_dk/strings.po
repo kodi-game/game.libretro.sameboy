@@ -477,34 +477,6 @@ msgctxt "#30142"
 msgid "Real Time Clock Emulation"
 msgstr "Emulering af ur i realtid"
 
-msgctxt "#30150"
-msgid "GB Mono Palette"
-msgstr "GB monopalette"
-
-msgctxt "#30151"
-msgid "GBC Color Correction"
-msgstr "GBC farvekorrektion"
-
-msgctxt "#30152"
-msgid "Ambient Light Temperature"
-msgstr "Temperatur på ambient lys"
-
-msgctxt "#30153"
-msgid "Display Border"
-msgstr "Vis kant"
-
-msgctxt "#30160"
-msgid "Highpass Filter"
-msgstr "Highpass-filter"
-
-msgctxt "#30161"
-msgid "Interference Volume"
-msgstr "Lydstyrke for interferens"
-
-msgctxt "#30166"
-msgid "Rumble Mode"
-msgstr "Rystetilstand"
-
 msgctxt "#30143"
 msgid "Link Cable Emulation"
 msgstr "Emulering af link-kabel"
@@ -533,6 +505,22 @@ msgctxt "#30149"
 msgid "Auto Detected SGB Model for Game Boy #2 (Requires Restart)"
 msgstr "Autodetekteret SGB-model til Game Boy #2 (kræver genstart)"
 
+msgctxt "#30150"
+msgid "GB Mono Palette"
+msgstr "GB monopalette"
+
+msgctxt "#30151"
+msgid "GBC Color Correction"
+msgstr "GBC farvekorrektion"
+
+msgctxt "#30152"
+msgid "Ambient Light Temperature"
+msgstr "Temperatur på ambient lys"
+
+msgctxt "#30153"
+msgid "Display Border"
+msgstr "Vis kant"
+
 msgctxt "#30154"
 msgid "GB Mono Palette for Game Boy #1"
 msgstr "GB monopalette til Game Boy #1"
@@ -557,6 +545,14 @@ msgctxt "#30159"
 msgid "Ambient Light Temperature for Game Boy #2"
 msgstr "Temperatur for ambient lys til Game Boy #2"
 
+msgctxt "#30160"
+msgid "Highpass Filter"
+msgstr "Highpass-filter"
+
+msgctxt "#30161"
+msgid "Interference Volume"
+msgstr "Lydstyrke for interferens"
+
 msgctxt "#30162"
 msgid "Highpass Filter for Game Boy #1"
 msgstr "Highpass-filter til Game Boy #1"
@@ -572,6 +568,10 @@ msgstr "Lydstyrke for interferens til Game Boy #1"
 msgctxt "#30165"
 msgid "Interference Volume for Game Boy #2"
 msgstr "Lydstyrke for interferens til Game Boy #2"
+
+msgctxt "#30166"
+msgid "Rumble Mode"
+msgstr "Rystetilstand"
 
 msgctxt "#30167"
 msgid "Rumble Mode for Game Boy #1"
